@@ -1,0 +1,13 @@
+i {
+  font-size: 3rem;
+  font-weight: bold;
+}
+#delicious {
+  font-family: 'Rochester', cursive;
+  font-style: italic;
+  font-size: 60px;
+  font-weight: bold;
+}
+#subtitleDelicious {
+  font-family: arial;
+}
