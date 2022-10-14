@@ -11,3 +11,12 @@ i {
 #subtitleDelicious {
   font-family: arial;
 }
+#lineDrawing {
+  background-image: url(https://raw.githubusercontent.com/codefellows/seattle-code-201d91/main/class-10/lab-a/lab-assets/hr-img.png);
+  background-repeat: repeat-x;
+  height: 10px;
+}
+#title {
+  display: flex;
+  flex-direction: column;
+}
