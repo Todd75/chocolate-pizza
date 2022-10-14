@@ -1,22 +1,59 @@
+body {
+  width: 900px;
+}
+
+#forkK {
+  width: 130px;
+}
+
 i {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
 }
+
 #delicious {
   font-family: 'Rochester', cursive;
   font-style: italic;
   font-size: 60px;
   font-weight: bold;
 }
+
 #subtitleDelicious {
   font-family: arial;
 }
+
 #lineDrawing {
   background-image: url(https://raw.githubusercontent.com/codefellows/seattle-code-201d91/main/class-10/lab-a/lab-assets/hr-img.png);
   background-repeat: repeat-x;
   height: 10px;
 }
+
 #title {
   display: flex;
   flex-direction: column;
+  width: 750px;
+}
+
+#title p {
+  margin: 0%;
+}
+
+#printerImage {
+  width: 30px;
+}
+
+#pint {
+  padding-right: 0.25em;
+}
+
+#icons {
+  display: inline-block;
+  float: right;
+  width: 45%;
+  margin-right: 0%;
+}
+
+header {
+  display: flex;
+  align-items: center;
 }
