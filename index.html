@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rochester&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
   <link rel="stylereset" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://kit.fontawesome.com/fb5a0a9844.js" crossorigin="anonymous"></script>
@@ -57,39 +58,47 @@
     </section>
     <section id="ingredients">
       <ul>
-        <li>1 1/2 cups milk</li>
-        <li>1/2 cup mascarpone</li>
-        <li>1/2 tsp pink salt</li>
-        <li>1 lb Black Mission Figs</li>
-        <li>1/2 cup brown sugar</li>
-        <li>2-4 tbsp water</li>
+        <li><input type="checkbox"> 1 1/2 cups milk</li>
+        <li><input type="checkbox"> 1/2 cup mascarpone</li>
+        <li><input type="checkbox"> 1/2 tsp pink salt</li>
+        <li><input type="checkbox"> 1 lb Black Mission Figs</li>
+        <li><input type="checkbox"> 1/2 cup brown sugar</li>
+        <li><input type="checkbox"> 2-4 tbsp water</li>
       </ul>
       <ul>
-        <li>1 1/2 cups heavy cream</li>
-        <li>1/3 granulated sugar</li>
-        <li>2 egg yolks</li>
-        <li>1 lemon, juiced</li>
-        <li>2 tbsp butter</li>
-        <li>1 cup honey roasted pecans, roughly chopped</li>
+        <li><input type="checkbox"> 1 1/2 cups heavy cream</li>
+        <li id="lineout"><input type="checkbox" checked="checked"> 1/3 granulated sugar</li>
+        <li id="lineout"><input type="checkbox" checked="checked"> 2 egg yolks</li>
+        <li><input type="checkbox"> 1 lemon, juiced</li>
+        <li><input type="checkbox"> 2 tbsp butter</li>
+        <li><input type="checkbox"> 1 cup honey roasted pecans, roughly chopped</li>
       </ul>
     </section>
     <p id="lineDrawing"></p>
     <section id="author">
-      <img src="img/van-pic.png" alt="picture of author Vanessa Stevenson">
+      <img src="img/van-pic.png" alt="picture of author Vanessa Stevenson" height="75px">
       <section id="authorText">
         <h3>Vanessa Stevenson</h3>
         <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
       </section>
       <section id="authorBox">
         <p>
-          <a></a>
+          <a href>SHARE RECIPE</a>
         </p>
       </section>
     </section>
   </main>
   <footer>
-    <i>Search for CSS line in box</i>
-    <img src="img/small-logo.png">
+    <div class="pushDiv"></div>
+    <div class="container">
+      <div class="line">
+        <div class="circle">
+          <img
+            src="https://raw.githubusercontent.com/codefellows/seattle-code-201d91/main/class-10/lab-a/lab-assets/small-logo.png">
+        </div>
+      </div>
+    </div>
+    <div class="pushDiv"></div>
     <p> Delicious &copy; 2013 &#x2022; All Rights Reserved.</p>
     <p>Proudly published with Ghost.</p>
   </footer>
