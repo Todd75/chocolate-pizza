@@ -158,7 +158,7 @@ footer p {
   height: 40px;
 }
 #printImage {
-  display: inline-flexbox;
+  /* display: inline-flexbox; */
 }
 #printerImage {
   padding-right: 1px;
