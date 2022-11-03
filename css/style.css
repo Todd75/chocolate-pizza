@@ -3,7 +3,7 @@ body {
 }
 
 #forkK {
-  width: 130px;
+  width: 140px;
 }
 
 i {
@@ -12,21 +12,22 @@ i {
 }
 
 #delicious {
-  font-family: 'Rochester', cursive;
+  font-family: 'Yellowtail', cursive;
   font-style: italic;
-  font-size: 60px;
+  font-size: 70px;
   font-weight: bold;
 }
 
 #subtitleDelicious {
   font-family: arial;
+  padding: .4rem;
 }
 
 h1 {
-  font-family: 'Arial Narrow', sans-serif;
+  font-family: 'League Gothic', sans-serif;
   display: inline-block;
   margin: 0 0;
-  font-size: 55px;
+  font-size: 80px;
   font-weight: bold;
 }
 
@@ -47,10 +48,7 @@ h1 {
   margin: 0%;
 }
 
-#printerImage {
-  width: 30px;
-  float: right;
-}
+
 
 #pint {
   padding-right: 0.25em;
@@ -158,4 +156,18 @@ footer p {
 
 .pushDiv {
   height: 40px;
+}
+#printImage {
+  display: inline-flexbox;
+}
+#printerImage {
+  padding-right: 1px;
+  margin-top: 20px;
+  width: 14px;
+  height: 12px;
+  float: right;
+}
+#ptagPrint {
+  float: right;
+  font-weight: lighter;
 }
