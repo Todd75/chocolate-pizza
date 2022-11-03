@@ -76,7 +76,7 @@ header {
 }
 
 #ingredients {
-  background-image: url(/img/list-bg.png);
+  background-image: url(../img/list-bg.png);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -176,4 +176,3 @@ footer p {
   float: right;
   font-weight: lighter;
 }
-
